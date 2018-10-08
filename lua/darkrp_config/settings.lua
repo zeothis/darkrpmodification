@@ -46,7 +46,7 @@ GM.Config.chatsounds                    = true
 -- chiefjailpos - Allow the Chief to set the jail positions.
 GM.Config.chiefjailpos                  = true
 -- cit_propertytax - Enable/disable property tax that is exclusive only for citizens.
-GM.Config.cit_propertytax               = false
+GM.Config.cit_propertytax               = true
 -- copscanunfreeze - Enable/disable the ability of cops to unfreeze other people's props.
 GM.Config.copscanunfreeze               = true
 -- copscanunweld - Enable/disable the ability of cops to unweld other people's props.
@@ -102,7 +102,7 @@ GM.Config.showjob                       = true
 -- letters - Enable/disable letter writing / typing.
 GM.Config.letters                       = true
 -- license - Enable/disable People need a license to be able to pick up guns.
-GM.Config.license                       = false
+GM.Config.license                       = true
 -- lockdown - Enable/Disable initiating lockdowns for mayors.
 GM.Config.lockdown                      = true
 -- lockpickfading - Enable/disable the lockpicking of fading doors.
@@ -126,9 +126,9 @@ GM.Config.npcarrest                     = true
 -- ooc - Whether or not OOC tags are enabled.
 GM.Config.ooc                           = true
 -- propertytax - Enable/disable property tax.
-GM.Config.propertytax                   = false
+GM.Config.propertytax                   = true
 -- proppaying - Whether or not players should pay for spawning props.
-GM.Config.proppaying                    = false
+GM.Config.proppaying                    = true
 -- propspawning - Enable/disable props spawning. Applies to admins too.
 GM.Config.propspawning                  = true
 -- removeclassitems - Enable/disable shipments/microwaves/etc. removal when someone changes team.
@@ -452,9 +452,9 @@ GM.Config.noStripWeapons = {
 -- This only applies when removeclassitems is set to true.
 -- Note: entities will only be removed when the player changes to a job that is not allowed to have the entity.
 GM.Config.preventClassItemRemoval = {
-    ["gunlab"] = false,
-    ["microwave"] = false,
-    ["spawned_shipment"] = false,
+    ["gunlab"] = true,
+    ["microwave"] = true,
+    ["spawned_shipment"] = true,
 }
 
 -- Properties set to true are allowed to be used. Values set to false or are missing from this list are blocked.
