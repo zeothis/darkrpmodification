@@ -24,18 +24,18 @@ In these few cases it will be pretty obvious when you expect something to happen
 ---------------------------------------------------------------------------]]
 DarkRP.disabledDefaults["modules"] = {
     ["afk"]              = true,
-    ["chatsounds"]       = false,
-    ["events"]           = false,
-    ["fpp"]              = false,
-    ["f1menu"]           = false,
-    ["f4menu"]           = false,
-    ["hitmenu"]          = false,
-    ["hud"]              = false,
+    ["chatsounds"]       = true,
+    ["events"]           = true,
+    ["fpp"]              = true,
+    ["f1menu"]           = true,
+    ["f4menu"]           = true,
+    ["hitmenu"]          = true,
+    ["hud"]              = true,
     ["hungermod"]        = true,
-    ["playerscale"]      = false,
-    ["sleep"]            = false,
-    ["fadmin"]           = false,
-    ["animations"]       = false,
+    ["playerscale"]      = true,
+    ["sleep"]            = true,
+    ["fadmin"]           = true,
+    ["animations"]       = true,
 }
 
 --[[---------------------------------------------------------------------------
